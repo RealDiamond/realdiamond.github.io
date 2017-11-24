@@ -11,25 +11,25 @@ body {
 
 .img{   
 	
-	position: relative;
+    position: relative;
     top: 190px;
     left: 30px;
-	text-align: center;  
+    text-align: center;  
 	
 }
 
 .devauthor {
-	position: relative;
-	color: #fff;
-	font-size: 15px;
-	top: 680px;
+    position: relative;
+    color: #fff;
+    font-size: 15px;
+    top: 680px;
     left: 630px;
-	text-align: center;  
+    text-align: center;  
 }
 
 .centerbutton {
-	text-align: center;  
-	position: relative;
+    text-align: center;  
+    position: relative;
     top: 225px;
     left: 25px;
 }
