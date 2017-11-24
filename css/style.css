@@ -9,37 +9,30 @@ body {
   font-size: 40px;
 }
 
-.img{   
-	
-    position: relative;
-    top: 190px;
-    left: 30px;
-    text-align: center;  
-	
-}
-
-.devauthor {
-    position: relative;
-    color: #fff;
-    font-size: 15px;
-    top: 680px;
+img{
+    position: fixed;
+    top: 280px;
     left: 630px;
-    text-align: center;  
+	text-align: center;  
 }
 
 .centerbutton {
-    text-align: center;  
-    position: relative;
-    top: 225px;
-    left: 25px;
+    position: fixed;
+    top: 490px;
+    left: 620px;
 }
 
 
-.text { 
-  text-align: center;  
-  position: relative;
-  top: 405px;
-  left: -20px;
+.avatar { 
+ text-align: center;  
+ padding-top: 260px;
+ padding-right: 10px;
+}
+
+
+.text {
+  padding-top: 420px;
+  padding-left: 595px;
 }
 
 
@@ -83,19 +76,17 @@ p {
 }
 
 .belize {
-  color: #FFFFFF;
+  color: #00FFA9;
 }
 
 .pomegranate {
-  color: #00FFA9;
-}
-
-.green {
   color: #FFFFFF;
 }
 
-.midnight {
+.green {
   color: #00FFA9;
 }
 
-
+.midnight {
+  color: #FFFFFF;
+}
