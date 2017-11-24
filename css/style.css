@@ -9,28 +9,20 @@ body {
 
 img{
     position: fixed;
-    top: 280px;
-    left: 630px;
-	text-align: center;  
+    top: 255px;
+    left: 635px;
+    text-align: center;  
 }
 
 .centerbutton {
     position: fixed;
-    top: 490px;
-    left: 620px;
+    top: 475px;
+    left: 635px;
 }
-
-
-.avatar { 
- text-align: center;  
- padding-top: 260px;
- padding-right: 10px;
-}
-
 
 .text {
-  padding-top: 420px;
-  padding-left: 595px;
+  padding-top: 405px;
+  padding-left: 605px;
 }
 
 
