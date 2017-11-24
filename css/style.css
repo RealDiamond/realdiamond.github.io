@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+
+body {
+  background: #fff url(../img/fon-logo_1.jpg) no-repeat center top;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+img{
+    position: fixed;
+    top: 280px;
+    left: 630px;
+	text-align: center;  
+}
+
+.centerbutton {
+    position: fixed;
+    top: 490px;
+    left: 620px;
+}
+
+
+.avatar { 
+ text-align: center;  
+ padding-top: 260px;
+ padding-right: 10px;
+}
+
+
+.text {
+  padding-top: 420px;
+  padding-left: 595px;
+}
+
+
+p {
+  color: #FFFFFF;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+}
+
+.word {
+  position: absolute;
+  width: 220px;
+  opacity: 0;
+}
+
+.letter {
+  display: inline-block;
+  position: relative;
+  float: left;
+  transform: translateZ(25px);
+  transform-origin: 50% 50% 25px;
+}
+
+.letter.out {
+  transform: rotateX(90deg);
+  transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.letter.behind {
+  transform: rotateX(-90deg);
+}
+
+.letter.in {
+  transform: rotateX(0deg);
+  transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.wisteria {
+  color: #FFFFFF;
+}
+
+.belize {
+  color: #00FFA9;
+}
+
+.pomegranate {
+  color: #FFFFFF;
+}
+
+.green {
+  color: #00FFA9;
+}
+
+.midnight {
+  color: #FFFFFF;
+}
+
+
