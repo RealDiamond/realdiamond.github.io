@@ -1,3 +1,5 @@
+
+
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
 
 body {
@@ -7,30 +9,37 @@ body {
   font-size: 40px;
 }
 
-img{
-    position: fixed;
-    top: 280px;
+.img{   
+	
+	position: relative;
+    top: 190px;
+    left: 30px;
+	text-align: center;  
+	
+}
+
+.devauthor {
+	position: relative;
+	color: #fff;
+	font-size: 15px;
+	top: 680px;
     left: 630px;
 	text-align: center;  
 }
 
 .centerbutton {
-    position: fixed;
-    top: 490px;
-    left: 620px;
+	text-align: center;  
+	position: relative;
+    top: 225px;
+    left: 25px;
 }
 
 
-.avatar { 
- text-align: center;  
- padding-top: 260px;
- padding-right: 10px;
-}
-
-
-.text {
-  padding-top: 420px;
-  padding-left: 595px;
+.text { 
+  text-align: center;  
+  position: relative;
+  top: 405px;
+  left: -20px;
 }
 
 
@@ -74,19 +83,19 @@ p {
 }
 
 .belize {
-  color: #00FFA9;
+  color: #FFFFFF;
 }
 
 .pomegranate {
-  color: #FFFFFF;
-}
-
-.green {
   color: #00FFA9;
 }
 
-.midnight {
+.green {
   color: #FFFFFF;
+}
+
+.midnight {
+  color: #00FFA9;
 }
 
 
