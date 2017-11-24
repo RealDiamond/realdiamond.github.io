@@ -1,5 +1,3 @@
-
-
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
 
 body {
@@ -9,30 +7,27 @@ body {
   font-size: 40px;
 }
 
-img{
-    position: fixed;
-    top: 280px;
-    left: 630px;
+.img{   
+	
+    padding-top: 180px;
+    padding-left: 30px;
 	text-align: center;  
+	
 }
 
 .centerbutton {
-    position: fixed;
-    top: 490px;
-    left: 620px;
+	text-align: center;  
+	/*position: relative;*/
+    padding-top: 30px;
+    padding-left: 35px;
 }
 
 
-.avatar { 
- text-align: center;  
- padding-top: 260px;
- padding-right: 10px;
-}
-
-
-.text {
-  padding-top: 420px;
-  padding-left: 595px;
+.text {  
+  position: relative;
+  top: 400px;
+  left: -35px;
+  text-align: center; 
 }
 
 
@@ -76,17 +71,19 @@ p {
 }
 
 .belize {
-  color: #00FFA9;
+  color: #FFFFFF;
 }
 
 .pomegranate {
-  color: #FFFFFF;
-}
-
-.green {
   color: #00FFA9;
 }
 
-.midnight {
+.green {
   color: #FFFFFF;
 }
+
+.midnight {
+  color: #00FFA9;
+}
+
+
