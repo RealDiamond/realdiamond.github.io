@@ -7,27 +7,30 @@ body {
   font-size: 40px;
 }
 
-.img{   
-	
-    padding-top: 180px;
-    padding-left: 30px;
+img{
+    position: fixed;
+    top: 280px;
+    left: 630px;
 	text-align: center;  
-	
 }
 
 .centerbutton {
-	text-align: center;  
-	/*position: relative;*/
-    padding-top: 30px;
-    padding-left: 35px;
+    position: fixed;
+    top: 490px;
+    left: 620px;
 }
 
 
-.text {  
-  position: relative;
-  top: 400px;
-  left: -35px;
-  text-align: center; 
+.avatar { 
+ text-align: center;  
+ padding-top: 260px;
+ padding-right: 10px;
+}
+
+
+.text {
+  padding-top: 420px;
+  padding-left: 595px;
 }
 
 
@@ -71,19 +74,17 @@ p {
 }
 
 .belize {
-  color: #FFFFFF;
+  color: #00FFA9;
 }
 
 .pomegranate {
-  color: #00FFA9;
-}
-
-.green {
   color: #FFFFFF;
 }
 
-.midnight {
+.green {
   color: #00FFA9;
 }
 
-
+.midnight {
+  color: #FFFFFF;
+}
