@@ -12,21 +12,21 @@ body {
 }
 
 .img{   	
-    padding-top: 180px;
+    padding-top: 170px;
     padding-left: 30px;
     text-align: center;  	
 }
 
 .centerbutton {
     text-align: center;  
-    padding-top: 30px;
+    padding-top: 15px;
     padding-left: 35px;
 }
 
 
 .text {  
   position: relative;
-  top: 400px;
+  top: 375px;
   left: -35px;
   text-align: center; 
 }
