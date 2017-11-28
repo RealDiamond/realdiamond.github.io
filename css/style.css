@@ -1,10 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
 
 body {
-  background: #fff url(../img/fon-logo_1.jpg) no-repeat center top;
+  background: #fff url(../img/fon-logo_1.jpg) no-repeat center center fixed;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-size: 40px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;	
 }
 
 .img{   
